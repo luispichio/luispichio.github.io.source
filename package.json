@@ -1,0 +1,75 @@
+{
+  "name": "v4",
+  "description": "Personal Website V4",
+  "version": "1.0.0",
+  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bchiang7/v4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "animejs": "*",
+    "babel-plugin-styled-components": "*",
+    "gatsby": "*",
+    "gatsby-image": "*",
+    "gatsby-plugin-google-analytics": "*",
+    "gatsby-plugin-manifest": "*",
+    "gatsby-plugin-netlify": "*",
+    "gatsby-plugin-offline": "*",
+    "gatsby-plugin-react-helmet": "*",
+    "gatsby-plugin-robots-txt": "*",
+    "gatsby-plugin-sharp": "*",
+    "gatsby-plugin-sitemap": "*",
+    "gatsby-plugin-styled-components": "*",
+    "gatsby-remark-external-links": "*",
+    "gatsby-remark-images": "*",
+    "gatsby-source-filesystem": "*",
+    "gatsby-transformer-remark": "*",
+    "gatsby-transformer-sharp": "*",
+    "prop-types": "*",
+    "pure-react-carousel": "*",
+    "react": "*",
+    "react-anchor-link-smooth-scroll": "*",
+    "react-dom": "*",
+    "react-helmet": "*",
+    "react-transition-group": "*",
+    "scrollreveal": "*",
+    "styled-components": "*",
+    "yarn": "*"
+  },
+  "devDependencies": {
+    "@upstatement/eslint-config": "*",
+    "@upstatement/prettier-config": "*",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "*",
+    "husky": "*",
+    "lint-staged": "*",
+    "prettier": "*",
+    "pretty-quick": "*"
+  }
+}
