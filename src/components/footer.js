@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import {
   IconGithub,
   IconLinkedin,
+  IconBlogger,
   IconCodepen,
   IconInstagram,
   IconTwitter,
@@ -83,6 +84,8 @@ const Footer = ({ githubInfo }) => (
                   <IconGithub />
                 ) : name === 'Linkedin' ? (
                   <IconLinkedin />
+                ) : name === 'Blogger' ? (
+                  <IconBlogger />
                 ) : name === 'Codepen' ? (
                   <IconCodepen />
                 ) : name === 'Instagram' ? (

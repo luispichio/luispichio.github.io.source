@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.0.3] - 1/5/2022 19:22
+
+### Added
+- Menu
+  - Curriculum (extracto de Linkedin)
+
+### Fixed
+- Footer
+  - Corregido icono de Blogger.
+
 ## [0.0.2] - 1/5/2022
 
 ### Added
@@ -29,4 +39,5 @@ and this project adheres to [Semantic Versioning].
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
-[0.0.2]: https://github.com/Author/Repository/releases/tag/v0.0.2
+[0.0.3]: https://github.com/luispichio/luispichio.github.io.source
+[0.0.2]: https://github.com/luispichio/luispichio.github.io.source/commit/b0c77b38e7d409c99ed055e6e0a38eecc0e1449e
